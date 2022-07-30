@@ -1,0 +1,102 @@
+body {
+  background: #191a1b;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #333; /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 186, 204, 1); /* цвет плашки */
+  border-radius: 20px; /* закругления плашки */
+  border: 3px solid rgba(0, 204, 195, 1); /* padding вокруг плашки */
+}
+
+/* TEM cp = текущая страница */
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+
+@media (max-width: 1353px) {
+  .blob {
+    display: none;
+  }
+}
+
+@media (max-width: 830px) {
+  .about-img {
+    display: none;
+  }
+
+  .work-content {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .work-box {
+    border-top: 1px solid #eee;
+  }
+
+  .brn {
+    border-top: 1px solid #eee;
+  }
+}
+
+@media (max-width: 1280px) {
+  .me-blob {
+    display: none;
+  }
+
+  .me-title {
+    text-align: center;
+  }
+
+  .all-blocks {
+    display: flex;
+    justify-content: center;
+  }
+  .about {
+    padding: 128px 24px 64px 24px;
+  }
+}
+@media (max-width: 650px) {
+  .welcome {
+    padding: 15px 22px 10px 22px;
+  }
+
+  .about-block {
+    padding: 18px;
+  }
+
+  .compec-icons {
+    flex-wrap: wrap;
+    max-width: 350px;
+  }
+
+  .ico {
+    margin-bottom: 14px;
+  }
+
+  .me {
+    padding: 14px;
+  }
+
+  .me-block {
+    padding: 8px;
+  }
+}

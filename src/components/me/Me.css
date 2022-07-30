@@ -1,0 +1,61 @@
+.me {
+    background: #191a1b;
+    padding: 62px;
+  }
+  
+  .me-content {
+    max-width: 1410px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .me-blocks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .me-title {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  
+  .me-block {
+    background: linear-gradient(
+      90deg,
+      rgba(34, 35, 36, 1) 0%,
+      rgba(32, 32, 32, 1) 88%
+    );
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 34px;
+    border-radius: 16px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 16px;
+  
+    max-width: 500px;
+  }
+  
+  .me-block-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  
+  .me-block-text {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 4px;
+  }
+  
+  .me-blob {
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    width: 600px;
+    z-index: 1;
+  }

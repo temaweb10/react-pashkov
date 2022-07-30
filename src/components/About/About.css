@@ -1,0 +1,46 @@
+
+.about {
+    padding: 128px 64px 64px 64px;
+  }
+  
+  .about-content {
+    max-width: 1410px;
+    margin: 0 auto;
+  }
+  
+  .about-block {
+    background: rgb(34, 35, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(34, 35, 36, 1) 0%,
+      rgba(32, 32, 32, 1) 88%
+    );
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 1200px;
+  
+    padding: 32px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .about-img {
+    height: 400px;
+    min-width: 160px;
+    width: 300px;
+    margin-right: 32px;
+  }
+  
+  .img-author {
+    object-fit: cover;
+    width: 100%;
+  
+    border-radius: 12px;
+  }
+  
+  .about-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }

@@ -1,0 +1,36 @@
+
+.work {
+    background-color: #fff;
+  }
+  
+  .work-content {
+    max-width: 1410px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .work-box {
+    border-right: 1px solid #ccc;
+    padding: 32px;
+  }
+  
+  .brn {
+    padding: 32px;
+  }
+  
+  .work-number {
+    font-size: 22px;
+    font-weight: 400;
+    color: #01d3c5;
+  }
+  
+  .color-484848 {
+    color: #484848;
+  }
+  
+  .box-title {
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
